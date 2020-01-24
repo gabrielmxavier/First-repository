@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: gray;
+  }
+  
+  .box {
+    position: absolute;
+    top: 45%;
+    left: 47%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .btn:link,
+  .btn:visited {
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 15px 35px;
+    display: inline-block;
+    border-radius: 100px;
+    transition: all .1s;
+    position: relative;
+    backface-visibility: hidden;
+  }
+  
+  .btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.57); 
+  }
+  
+  .btn:active {
+    transform: translateY(-1px);
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.57);
+  }
+  
+  .btn-ghost {
+    background-color: green;
+    color: white;
+  }
+  
+  
+  
